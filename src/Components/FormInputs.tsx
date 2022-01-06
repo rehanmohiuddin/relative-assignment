@@ -7,7 +7,7 @@ import BoxVector from "../Assets/box-vector.png";
 function FormInputs() {
   const [formObj, setFormObj] = useState({});
   return (
-    <div className="flex flex-col h-screen p-24  w-screen	 bg-right-black  text-white">
+    <div className="flex flex-col h-screen p-16  w-screen	 bg-right-black  text-white">
       <div className="container mx-auto w-full">
         <Header />
       </div>

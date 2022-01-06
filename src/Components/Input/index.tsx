@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Select from "./Select";
 import TextInput from "./Input";
 import { renderInputs } from "../../constants";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface AppProps {
   setFormObject: Function;
@@ -18,8 +20,8 @@ function Index({ setFormObject }: AppProps) {
         <div
           className={
             _input.type === "SELECT"
-              ? "flex divide-x divide-input-color rounded-2xl w-full bg-input-container-color relative mb-4"
-              : "flex rounded-2xl w-full bg-input-container-color relative mb-4"
+              ? "flex divide-x divide-input-color rounded-2xl p-3 w-full bg-input-container-color relative mb-4"
+              : "flex rounded-2xl w-full bg-input-container-color relative mb-4 p-3"
           }
         >
           <div className="w-full h-28  p-3 ">
@@ -83,6 +85,12 @@ function Index({ setFormObject }: AppProps) {
               </div>
             </div>
           )}
+          <FontAwesomeIcon
+            className="cursor-pointer"
+            color="#302e54"
+            icon={faInfoCircle}
+            size="1x"
+          />
         </div>
       ))}
     </>
