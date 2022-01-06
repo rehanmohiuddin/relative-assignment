@@ -8,7 +8,7 @@
 
 # Features
 
--initial data on load in form are presentational porposes enter some data to get them in console
+- initial data on load in form are presentational porposes enter some data to get them in console
 
 - Select the Token01 & Token02 by clicking on down arrow
 
