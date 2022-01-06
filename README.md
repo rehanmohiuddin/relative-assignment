@@ -1,5 +1,9 @@
 # Relative Form Design Assignment
 
+# Live Preview
+
+- https://relative-assignment.netlify.app/
+
 - The Above is Implemented With CRA,TypeScript & Tailwind Css As Prescribed in Assignment
 
 - The Components Folder in src consistes of Input,Select,Text Resuable Components
